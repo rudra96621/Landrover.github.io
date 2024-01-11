@@ -1,0 +1,339 @@
+*{
+    overflow-x: hidden;
+    margin:0px;
+    padding:0px;
+}
+
+   
+.discoverylogo{
+    position: absolute;
+    top:43%;
+    left:71%;
+}
+.defenderlogo{
+    position: absolute;
+    top:43%;
+    left:37%;
+}
+.rangeroverlogo{
+    position: absolute;
+    top:43%;
+    left:4%;
+}
+.centered {
+    display:flex;
+    position: absolute;
+    top: 57%;
+    left: 46.8%;
+    background-color: white;
+    padding:11px;
+    color:black;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor:pointer;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.left {
+    display: flex;
+    position: absolute;
+    top: 57%;
+    left: 13%;
+    background-color: white;
+    padding:11px;
+    color:black;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor:pointer;
+}
+.right {
+    display: flex;
+    position: absolute;
+    top: 57%;
+    right: 13%;
+    background-color: white;
+    padding:11px;
+    color:black;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor:pointer;
+  }
+.left:hover{
+    background-color: black;
+    color: white;
+}
+.right:hover{
+    background-color: black;
+    color: white;
+}
+.centered:hover{
+    background-color: black;
+    color: white;
+}
+p{
+    margin-top: 15px;
+}
+p:hover{
+    text-decoration: underline;
+
+}
+.div{
+    text-decoration: none;
+}
+
+.hr{
+    position:absolute;
+    top:px;
+    left:40px;
+    font-size:13px;
+    margin-top:17px;
+    cursor: pointer;
+}
+.term{
+    position:absolute;
+    top:px;
+    left:210px;
+    font-size:13px;
+    margin-top:17px;
+    cursor: pointer;
+}
+.contact{
+    position:absolute;
+    top:px;
+    left:420px;
+    font-size:13px;
+    margin-top:17px;
+    cursor: pointer;
+}
+.privacy{
+    position:absolute;
+    top:px;
+    left:590px;
+    font-size:13px;
+    margin-top:17px;
+    cursor: pointer;
+}
+.rudra{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+.video{
+    width:40vw;
+    height:100vh;
+    transform: scale(3);
+    
+
+}
+.container{
+    display: flex;
+    
+ 
+
+}
+.container div{
+    width:33.33%;
+   
+    overflow: hidden;
+    
+} 
+.content1{
+    font-size:12px;
+    padding-top:1%;
+    position: absolute;
+    left:3%;
+}
+.content2{
+    font-size:12px;
+    position:absolute;
+    left:23%; 
+    padding-top: 1%;
+}
+.content3{
+    font-size:12px;
+    position:absolute;
+    left:45%;
+    padding-top: 1%;
+}
+.media{
+    position:absolute;
+    left:72.6%;
+    font-size: 15px;
+    margin-top:2em;
+}
+.facebook{
+    position:absolute;
+    left: 72.6%;
+    margin-top: 5em;
+    filter: grayscale(100%);
+    
+}
+.x{
+    position:absolute;
+    left: 72.6%;
+    margin-top: 8.8em;
+    filter:grayscale(97%);
+}.youtube{
+    position:absolute;
+    left: 72.6%;
+    margin-top: 12.4em;
+    filter: grayscale(100%);
+}
+.instagram{
+    position:absolute;
+    left: 72.6%;
+    margin-top: 16em;
+    filter: grayscale();
+}
+.facebooktext{
+    display: flex;
+    position: absolute;
+    left: 76%;
+    margin-top: 10em;
+    font-size: 10px;
+}
+.xtext{
+    position: absolute;
+    left: 76%;
+    margin-top: 16em;
+    font-size: 10px;
+}
+
+.youtubetext{
+    position: absolute;
+    left: 76%;
+    margin-top: 22em;
+    font-size: 10px;
+}
+.instagramtext{
+    position: absolute;
+    left: 76%;
+    margin-top: 27.4em;
+    font-size: 10px;
+}
+.facebook:hover{
+    filter: grayscale(0%);
+}
+.x:hover{
+    filter: grayscale(0%);
+}
+.youtube:hover{
+    filter: grayscale(0%);
+}
+.instagram:hover{
+    filter: grayscale(0%);
+}
+@media only screen and (max-width:1440px){
+    .rangeroverlogo{
+     position: absolute;
+     top:37%;
+    }
+    .defenderlogo{
+     position: absolute;
+     top:37%;
+    }
+    .discoverylogo{
+     position: absolute;
+     top:37%;
+    }
+    .centered{
+         position:absolute;
+         top:49%;
+    }
+    .left{
+     position:absolute;
+     top:49%;
+    }
+    .right{
+     position:absolute;
+     top:49%;
+    }
+ }
+@media only screen and (max-width:1024px) and (min-width:1022px) {
+    .facebooktext{
+        position:absolute;
+        left:78%;
+    }
+    .xtext{
+        position:absolute;
+        left:78%;
+    }
+    .youtubetext{
+        position:absolute;
+        left:78%;
+    }
+    .instagramtext{
+        position:absolute;
+        left:78%;
+    }  
+ }   
+@media only screen and (max-width:1022px) {
+    .video{
+        width:100vw;
+        height:33.33vh;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+        
+    
+    .container div{
+        display:block;
+        width:100vw;
+        height:33.33vh;
+        
+    }
+    .facebooktext{
+        position:absolute;
+        left:78%;
+    }
+    .xtext{
+        position:absolute;
+        left:78%;
+    }
+    .youtubetext{
+        position:absolute;
+        left:78%;
+    }
+    .instagramtext{
+        position:absolute;
+        left:78%;
+    } 
+    .rangeroverlogo{
+        position: absolute;
+        top:8%;
+        left:39%;
+    }
+    .left{
+        position: absolute;
+        top: 19%;
+        left: 46.8%;
+    }
+    .centered{
+        top: 51%;
+        left: 46.8%;
+    }
+    .defenderlogo{
+        position: absolute;
+        top:40%;
+        left:39%;
+    }
+    .right{
+        position:absolute;
+        top: 85%;
+        right:44.6%;
+    }
+    .discoverylogo{
+        position: absolute;
+        top:75%;
+        left:39.8%;
+    }
+}
